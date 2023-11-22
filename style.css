@@ -109,7 +109,7 @@ nav button{
 
 .seperation{
     width: 100%;
-    height: 7.5px;
+    height: 0.75rem;
     background-color: rgb(47, 47, 47);
 }
 
@@ -131,8 +131,13 @@ nav button{
     border: none;
 }
 
-.btn-first{
-    background-color: rgba(23, 23, 23, 0.2);
+.btn-red-sm:hover{
+    background-color: rgb(207, 4, 4);
+    cursor: pointer;
+}
+
+#btn-first{
+    background-color: rgba(23, 23, 23, 0.5);
     color: #fff;
     width: 130px;
     height: 32px;
@@ -141,6 +146,8 @@ nav button{
     border: 1px solid #fff;
     border-radius: 3px;
     padding: 1px 3px;
+    text-align: center;
+    z-index: 10;
 }
 
 .below{
@@ -174,18 +181,18 @@ nav button{
 }
 
 
-#first{
+.first{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 70vw;
+    width: 78vw;
     color: #fff;
     position: relative;
-    top: 8rem;
+    height: 58rem;
 }
 
-#first>div{
+.first>div{
     color: #fff;
     font-size: 20px;
 }
@@ -210,18 +217,150 @@ nav button{
 
 .txt{
     position: relative;
-    right: 6rem;
+    right: 2rem;
+}
+
+.txt1{
+    position: relative;
+    right: 3rem;
 }
 
 .Title1{
     font-family: Netflix-Sans-Light;
-    font-size: 4.8rem;
+    font-size: 4.9rem;
     margin-bottom: 12px;
     font-weight: 900;
 }
 
 .t{
     font-family:  Netflix-Sans;
-    font-size: 2rem;
+    font-size: 2.37rem;
     font-weight: 400;
+    margin-top: 2rem;
 }
+
+.Title2{
+    font-family: Netflix-Sans-Light;
+    font-size: 4.38rem;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+
+.second>.secImg{
+    position: relative;
+    right: 3rem;
+}
+
+.third>.secImg>video{
+    position: absolute;
+    top: 0;
+    right: 109px;
+    width: 25.7vw;
+    height: 40vh;
+}
+
+.forth{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth>.secImg>img{
+    position: relative;
+    right: 6rem;
+    top: auto;
+}
+
+.forth>.txt{
+    position: relative;
+}
+
+.faq{
+    background-color: black;
+    color: #fff;
+}
+
+.faq>h2{
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: Netflix-Sans-Light;
+    font-weight: 500;
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+}
+
+.faqbox{
+    display: flex;
+    background-color: rgb(45,45,45);   
+    color: rgb(255,255,255);
+    padding: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    font-size: 3.8rem;
+    font-weight: 400;
+    font-family: Netflix-Sans;
+    height: 11.5vh;
+    margin: 1rem auto;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+
+.faqbox:hover{
+    background-color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+
+.last{
+    height: 22vh;
+}
+
+.ready{
+    font-size: 2rem;
+    font-family: Netflix-Sans;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 5rem 0 1.8rem auto
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    color: rgba(255,255,255,0.7);;
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+    padding: 1.4rem;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.4rem;
+    font-family: Netflix-Sans;
+    font-weight: 400;
+    gap: 2.2rem;
+}
+
+.footer a{
+    color: rgba(255,255,255,0.7);;
+}
+
+.but{
+    font-size: 1.7rem;
+    font-family: Netflix-Sans;
+    padding: 3.4rem 0;
+}
+

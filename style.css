@@ -507,6 +507,10 @@ nav button{
 }
 
 @media screen and (max-width: 1300px) {
+    .last{
+        height: 92px;
+    }
+
     .ready{
         font-size: 1rem;
         margin: 2rem 0 1.8rem auto;

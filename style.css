@@ -152,6 +152,14 @@ nav button{
     border: none;
 }
 
+@media screen and (max-width: 1300px) {
+    .btn-red-sm{
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
 .btn-red-sm:hover{
     background-color: rgb(207, 4, 4);
     cursor: pointer;
@@ -210,17 +218,17 @@ nav button{
     }
 
     .btn-red{
-        width: 10rem;
-        height: 30px;
-        font-size: 10px;
-        margin-bottom: 10px
+        width: 7rem;
+        height: 15px;
+        font-size: 8px;
+        margin-bottom: 15px;
     }
 
     .below>input{
-        width: 25rem;
-        height: 30px;
+        width: 22rem;
+        height: 26px;
         font-size: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
 }
 
@@ -262,7 +270,7 @@ nav button{
 
 @media screen and (max-width: 1300px) {
     .secImg img{
-        width: 400px;
+        width: 300px;
         position: relative;
         z-index: 10;
         margin: auto;
@@ -270,9 +278,8 @@ nav button{
 
     .first>.secImg video{
         position: absolute;
-        right: 24px;
-        width: 319px;
-        height: 288px;
+        width: 254px;
+        height: 228px;
     }
 }
 
@@ -332,10 +339,12 @@ nav button{
 
     .txt{
         text-align: center;
+        margin: auto;
     }
 
     .txt1{
         text-align: center;
+        margin: auto;
     }
 }
 
@@ -377,14 +386,14 @@ nav button{
 
 @media screen and (max-width: 1300px){
     .third>.secImg>img{
-        width: 400px;
-        height: 295px;
+        width: 300px;
+        height: 235px;
     }
 
     .third>.secImg>video{
-        width: 246.2px;
-        height: 452px;
-        right: 77px;
+        width: 179.2px;
+        height: 369px;
+        right: 60px;
     }
 }
 
@@ -403,6 +412,12 @@ nav button{
 
 .forth>.txt{
     position: relative;
+}
+
+@media screen and (max-width: 1300px){
+    .forth>.secImg>img{
+        right: 0;
+    }
 }
 
 .faq{
@@ -526,5 +541,21 @@ footer{
     font-size: 1.7rem;
     font-family: Netflix-Sans;
     padding: 3.4rem 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .but{
+        font-size: 11px;
+    }
+
+    .footer-item{
+        font-size: 15px;
+    }
+
+    #btn-first{
+        width: 63px;
+        height: 20px;
+        font-size: 10px;
+    }
 }
 

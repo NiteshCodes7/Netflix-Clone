@@ -552,9 +552,14 @@ footer{
 }
 
 @media screen and (max-width: 1300px) {
+    footer{
+        height: 40vh;
+    }
+    
     .footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
     }
 }
 

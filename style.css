@@ -7,11 +7,14 @@
 
 body{
     background-color: black;
+    height: 100%;
+    width: 100vw;
 }
 
 .main{
     background-image: url(assests/Images/bg.jpg);
     height: 95vh;
+    width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(120rem, 100vw);
@@ -46,7 +49,12 @@ nav button{
     z-index: 3;
     background-color: white;
     position: relative;
-    
+}
+
+@media screen and (max-width: 1300px) {
+    nav img{
+        width: 7.7rem;
+    }
 }
 
 .bu :not(:last-child){
@@ -107,8 +115,21 @@ nav button{
     text-align: center;
 }
 
+@media screen and (max-width: 1300px) {
+    .hero> :nth-child(1){
+        font-size: 2.8rem;
+    }
+
+    .hero> :nth-child(2){
+        font-size: 1.9rem;
+    }
+
+    .hero> :nth-child(3){
+        font-size: 1.5rem;
+    }
+}
+
 .seperation{
-    width: 100%;
     height: 0.75rem;
     background-color: rgb(47, 47, 47);
 }
@@ -143,7 +164,7 @@ nav button{
     height: 32px;
     font-size: 16.4px;
     font-weight: lighter;
-    border: 1px solid #fff;
+    border: 1px solid rgba(246, 238, 238, 0.3);
     border-radius: 3px;
     padding: 1px 3px;
     text-align: center;
@@ -180,16 +201,48 @@ nav button{
     color: #ffffff;
 }
 
+@media screen and (max-width: 1300px) {
+    .below{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -10px;
+    }
+
+    .btn-red{
+        width: 10rem;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 10px
+    }
+
+    .below>input{
+        width: 25rem;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+}
 
 .first{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 78vw;
+    max-width: 84vw;
     color: #fff;
     position: relative;
-    height: 58rem;
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 .first>div{
@@ -202,17 +255,32 @@ nav button{
 }
 
 .secImg img{
-    width: 40vw;
+    width: 640px;
     position: relative;
     z-index: 10;
 }
 
+@media screen and (max-width: 1300px) {
+    .secImg img{
+        width: 400px;
+        position: relative;
+        z-index: 10;
+        margin: auto;
+    }
+
+    .first>.secImg video{
+        position: absolute;
+        right: 24px;
+        width: 319px;
+        height: 288px;
+    }
+}
+
 .secImg video{
     position: absolute;
-    top: 51px;
-    right: 0;
-    width: 34.4vw;
-    height: 50vh;
+    right: 2px;
+    width: 550px;
+    height: 488px;
 }
 
 .txt{
@@ -222,7 +290,7 @@ nav button{
 
 .txt1{
     position: relative;
-    right: 3rem;
+    margin-right: 3rem;
 }
 
 .Title1{
@@ -246,17 +314,78 @@ nav button{
     font-weight: 900;
 }
 
+@media screen and (max-width: 1300px) {
+    .Title1{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .Title2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .t{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .txt{
+        text-align: center;
+    }
+
+    .txt1{
+        text-align: center;
+    }
+}
+
 .second>.secImg{
     position: relative;
     right: 3rem;
 }
 
+@media screen and (max-width: 1300px){
+    .second {
+        flex-direction: column-reverse;
+    }
+
+    .third{
+        flex-direction: column-reverse;
+    }
+}
+
+.third{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.third>.secImg>img{
+    position: relative;
+    width: 580px;
+    height: 440px;
+}
+
 .third>.secImg>video{
     position: absolute;
-    top: 0;
+    bottom: -20px;
     right: 109px;
-    width: 25.7vw;
-    height: 40vh;
+    width: 364.2px;
+    height: 647px;
+}
+
+@media screen and (max-width: 1300px){
+    .third>.secImg>img{
+        width: 400px;
+        height: 295px;
+    }
+
+    .third>.secImg>video{
+        width: 246.2px;
+        height: 452px;
+        right: 77px;
+    }
 }
 
 .forth{
@@ -308,6 +437,12 @@ nav button{
     transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
 }
 
+@media screen and (max-width: 1300px) {
+    .faqbox{
+        font-size: 1.8rem;
+    }
+}
+
 .faqbox:hover{
     background-color: rgb(81, 81, 81);
     cursor: pointer;
@@ -326,11 +461,33 @@ nav button{
     margin: 5rem 0 1.8rem auto
 }
 
+@media screen and (max-width: 1300px) {
+    .ready{
+        font-size: 1rem;
+        margin: 2rem 0 1.8rem auto;
+    }
+
+    .faqbox>svg{
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .contact{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1300px) {
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 footer{
     color: rgba(255,255,255,0.7);;
@@ -343,6 +500,13 @@ footer{
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .footer-item{

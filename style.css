@@ -240,6 +240,16 @@ nav button{
     max-width: 84vw;
     color: #fff;
     position: relative;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 84vw;
+    color: #fff;
+    position: relative;
     
 }
 
@@ -356,18 +366,31 @@ nav button{
 @media screen and (max-width: 1300px){
     .second {
         flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .second>.secImg{
+        right: 0;
     }
 
     .third{
-        flex-direction: column-reverse;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 20px;
     }
 }
 
+
 .third{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    max-width: 84vw;
+    color: #fff;
+    position: relative;
 }
 
 .third>.secImg>img{
@@ -432,6 +455,12 @@ nav button{
     font-weight: 500;
     margin-top: 7rem;
     margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .faq>H2{
+        font-size: 22px;
+    }
 }
 
 .faqbox{
@@ -550,6 +579,7 @@ footer{
 
     .footer-item{
         font-size: 15px;
+        gap: 25px;
     }
 
     #btn-first{

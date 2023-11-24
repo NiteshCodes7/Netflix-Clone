@@ -372,7 +372,7 @@ nav button{
 @media screen and (max-width: 1300px){
     .second {
         flex-direction: column-reverse;
-        padding: 20px;
+        padding: 30px;
     }
 
     .second>.secImg{
@@ -383,7 +383,7 @@ nav button{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 20px;
+        padding: 30px;
     }
 }
 

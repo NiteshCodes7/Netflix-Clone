@@ -21,6 +21,12 @@ body{
     position: relative;
 }
 
+@media screen and (max-width: 1433px) {
+    .main{
+        height: 80vh;
+    }
+}
+
 .main .box{
     height: 95vh;
     width: 100%;

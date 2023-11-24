@@ -484,6 +484,7 @@ nav button{
 @media screen and (max-width: 1300px) {
     .faqbox{
         font-size: 1.8rem;
+        height: 28.5px;
     }
 }
 

@@ -246,6 +246,7 @@ nav button{
     max-width: 84vw;
     color: #fff;
     position: relative;
+    height: 580px
 }
 
 .second{
@@ -256,15 +257,17 @@ nav button{
     max-width: 84vw;
     color: #fff;
     position: relative;
+    height: 580px;
     
 }
 
 @media screen and (max-width: 1300px) {
     .first{
         flex-wrap: wrap;
-        padding: 50px;
+        padding: 33px;
         justify-content: center;
         align-items: center;
+        height: 55vh;
     }
 
 }
@@ -373,6 +376,7 @@ nav button{
     .second {
         flex-direction: column-reverse;
         padding: 30px;
+        height: 55vh;
     }
 
     .second>.secImg{
@@ -397,6 +401,7 @@ nav button{
     max-width: 84vw;
     color: #fff;
     position: relative;
+    height: 580px;
 }
 
 .third>.secImg>img{
@@ -414,6 +419,10 @@ nav button{
 }
 
 @media screen and (max-width: 1300px){
+    .third{
+        height: 55vh;
+    }
+
     .third>.secImg>img{
         width: 300px;
         height: 235px;
@@ -431,6 +440,7 @@ nav button{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    height: 580px;
 }
 
 .forth>.secImg>img{
@@ -444,6 +454,10 @@ nav button{
 }
 
 @media screen and (max-width: 1300px){
+    .forth{
+        height: 55vh;
+    }
+
     .forth>.secImg>img{
         right: 0;
     }

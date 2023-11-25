@@ -309,11 +309,6 @@ nav button{
     height: 488px;
 }
 
-.txt{
-    position: relative;
-    right: 2rem;
-}
-
 .txt1{
     position: relative;
     margin-right: 3rem;
@@ -354,11 +349,6 @@ nav button{
     .t{
         font-size: 1.3rem;
         text-align: center;
-    }
-
-    .txt{
-        text-align: center;
-        margin: auto;
     }
 
     .txt1{

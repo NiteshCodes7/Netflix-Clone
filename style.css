@@ -77,12 +77,12 @@ nav button{
 
 @font-face {
     font-family: Netflix-Sans;
-    src: url(/NetflixSansRegular.ttf) format("truetype");
+    src: url(/fonts/NetflixSansRegular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: Netflix-Sans-Light;
-    src: url(/NetflixSansBlack.ttf) format("truetype");
+    src: url(/fonts/NetflixSansBlack.ttf) format("truetype");
 }
 
 .hero{
